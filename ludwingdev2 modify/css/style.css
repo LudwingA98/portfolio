@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    background-color: #06010d;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%230029ff' fill-opacity='0.54'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*NAV-MENU*/
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*NAVIGATION*/
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand{
+    width: 10%;
+}
+
+/*NAV LEFT*/
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li a{
+    padding: 10px;
+}
+
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #eee;
+}
+
+.nav-main ul .nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.5rem;
+    display: none;
+}
+
+/*CARDSTART*/
+hr{
+    margin: 10px 0;
+}
+
+.card-start{
+    width: 100%;
+    height: 550px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background: url('../img/logotipo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 900px; 
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+h2, p{
+    text-align: center;
+}
+
+/*ABOUT ME*/
+
+/*CARDS BANNER ONE*/
+
+.cards-banner-one{
+    width: 100%;
+    height: 350px;
+    background-image: url('../img/web-developement-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+.cards-banner-one .content{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: white;
+}
+
+.cards-banner-one, p, h2{
+    margin: 10px 0 20px 0;
+}
+
+/*CARDS BANNER TWO*/
+
+.cards-banner-two{
+    background-image: url('../img/web-development-banner-2.jpg');
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+.cards-banner-two .content{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: white;
+}
+
+.cards-banner-two, p, h2{
+    margin: 10px 0 20px 0;
+}
+
+/*SKILLS*/
+
+/*technical skills*/
+
+.imghtml img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgcss img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgjs img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgreact img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgpython img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imghtml img:hover{
+    opacity: .8;
+}
+
+.imgcss img:hover{
+    opacity: .8;
+}
+
+.imgjs img:hover{
+    opacity: .8;
+}
+
+.imgreact img:hover{
+    opacity: .8;
+}
+
+.imgpython img:hover{
+    opacity: .8;
+}
+
+/*soft skills*/
+
+.imgwork img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgcommunication img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgmotivation img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgcreativity img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgflexibility img{
+    width: 15rem;
+    height: 15rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgwork img:hover{
+    opacity: .8;
+}
+
+.imgcommunication img:hover{
+    opacity: .8;
+}
+
+.imgmotivation img:hover{
+    opacity: .8;
+}
+
+.imgcreativity img:hover{
+    opacity: .8;
+}
+
+.paragraph{
+    float: right;
+    text-align: center;
+}
+
+/*PORTFOLIO*/
+
+.news-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.news-cards img{
+    width: 100%;
+    height: 180px;
+}
+
+.news-cards h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.news-cards a{
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.news-cards a:hover{
+    text-decoration: underline;
+}
+
+
+/*CONTACT*/
+.mail{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mail:hover{
+    opacity: .7;
+}
+
+.social-network{
+    width: 100%;
+    height: 350px;
+    background-image: url('../img/social.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px;
+}
+
+/*SOCIAL*/
+
+.social{
+    margin: 50px;
+}
+
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    margin: 0 30px;
+}
+
+.links a i{
+    font-size: 3rem;
+}
+
+/*FOOTER-LINKS*/
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-container ul{
+    margin: 0 auto;
+}
+
+.footer-container ul li{
+    line-height: 2.8;
+}
+
+.footer{
+    background: #2f3640;
+    color: #616161;
+    font-size: 25px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*MEDIA*/
+
+@media(max-width: 700px){
+    .card-start{
+        background-image: url('../img/logotipo.png');
+        background-position: center;
+        background-size: 100%;
+        display: flex;
+        height: 360px;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+}
+
+@media(max-width: 700px){
+    .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        transform:translateX(-400px);
+        padding: 30px;
+        opacity: .9;
+        transition: transform .5s ease-in-out;
+    }
+
+    .nav-main ul.nav-menu.show{
+        transform:translateX(-20px);
+    }
+
+    .nav-main ul.nav-menu li{
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .news-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-banner-one{
+        background-image: url('../img/web-developement-banner.png');
+        background-position: center;
+        background-size: 100%;
+        height: 500px;
+    }
+
+    .cards-banner-one, .tittle1, .parrafo1{
+        font-size: 19px;
+    }
+
+    .cards-banner-two{
+        background-image: url('../img/web-development-banner-2.jpg');
+        background-position: center;
+        background-size: 100%;
+        height: 500px;
+    }
+
+    .cards-banner-two, .tittle2, .parrafo2{
+        font-size: 19px;
+    }
+
+    /*Skills*/
+
+    .imghtml img{
+        display: block;
+        margin: auto;
+    }
+
+    .imgcss img{
+        display: block;
+        margin: auto;
+    }
+
+    .imgjs img{
+        display: block;
+        margin: auto;
+    }
+
+    .imgreact img{
+        display: block;
+        margin: auto;
+    }
+
+    .imgpython img{
+        display: block;
+        margin: auto;
+    }
+
+    .imgwork img{
+        display: block;
+        margin: auto;
+    }
+
+    .imgcommunication img{
+        display: block;
+        margin: auto;
+    }
+
+    .imgmotivation img{
+        display: block;
+        margin: auto;
+    }
+
+    .imgcreativity img{
+        display: block;
+        margin: auto;
+    }
+
+    .imgflexibility img{
+        display: block;
+        margin: auto;
+    }
+
+    .paragraph{
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 480px){
+    .card-start{
+        background-image: url('../img/logotipo.png');
+        background-position: center;
+        background-size: 100%;
+        display: flex;
+        height: 360px;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+}
+
+@media(max-width: 480px){
+    .news-cards{
+        grid-template-columns: 1fr;
+    }
+
+    .cards-banner-one{
+        background-image: url('../img/web-developement-banner.png');
+        background-position: center;
+        background-size: 100%;
+        height: 500px;
+    }
+
+    .cards-banner-two{
+        background-image: url('../img/web-development-banner-2.jpg');
+        background-position: center;
+        background-size: 100%;
+        height: 500px;
+    }
+}
+
+@media(max-width: 360px){
+    .card-start{
+        background-image: url('../img/logotipo.png');
+        background-position: center;
+        background-size: 100%;
+        display: flex;
+        height: 360px;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+}
+
+@media(max-width: 360px){
+    .news-cards{
+        grid-template-columns: 1fr;
+    }
+
+    .cards-banner-one{
+        background-image: url('../img/web-developement-banner.png');
+        background-position: center;
+        background-size: 100%;
+        height: 500px;
+    }
+
+    .cards-banner-one, .tittle1, .parrafo1{
+        font-size: 12px;
+    }
+
+    .cards-banner-two{
+        background-image: url('../img/web-development-banner-2.jpg');
+        background-position: center;
+        background-size: 100%;
+        height: 500px;
+    }
+
+    .cards-banner-one, .tittle2, .parrafo2{
+        font-size: 12px;
+    }
+}
+
